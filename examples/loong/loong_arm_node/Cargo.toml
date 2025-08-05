@@ -1,0 +1,13 @@
+[package]
+name = "loong_arm_node"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dora-node-api = { workspace = true }
+nalgebra = "0.33.2"
+ndarray = "0.16.1"
+openloong_sdk_rust = { path = "/home/dora/Project/loong/loong_sim_sdk_release_rust/openloong_sdk_rust" }
+coordinate = { path = "/home/dora/Project/loong/coordinate" }
