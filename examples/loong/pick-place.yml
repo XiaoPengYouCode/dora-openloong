@@ -38,16 +38,6 @@ nodes:
       TARGET_LANGUAGE: Chinese
       TRANSLATE: true
 
-  # - id: dora-gen72-arm 
-  #   build: pip install -e ../../node-hub/dora-gen72
-  #   path: dora-gen72-arm
-  #   inputs:
-  #     pose_r: state_machine/action_r_arm
-  #     pose_l: state_machine/action_l_arm
-  #   outputs:
-  #     - response_r_arm
-  #     - response_l_arm
-
   # - id: dora-gen72-gemini335
   #   build: pip install -e ../../node-hub/dora-gen72
   #   path: dora-gen72-gemini335
